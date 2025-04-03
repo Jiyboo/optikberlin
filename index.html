@@ -663,13 +663,39 @@
           </div>
           
           <div class="col-lg-6">
-            <div class="info w-100 mt-4">
-              <i class="icofont-phone"></i>
-              <h4>Telepon:</h4>
-              <p><a href="tel:+6281349738103">0813-4973-8103</a></p>
-            </div>
-          </div>
-        </div>
+    <div class="info w-100 mt-4">
+        <i class="icofont-phone"></i>
+        <h4>Telepon:</h4>
+        <p>
+            <a id="contactLink" href="#">Memeriksa...</a>
+        </p>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var phoneNumber = "6281349738103"; // Nomor telepon tanpa "+"
+        var whatsappLink = "https://api.whatsapp.com/send?phone=" + phoneNumber;
+        var telLink = "tel:+" + phoneNumber;
+        var contactLink = document.getElementById("contactLink");
+
+        // Coba akses WhatsApp Web untuk memeriksa apakah nomor terdaftar
+        fetch(whatsappLink, { method: "HEAD" })
+            .then(response => {
+                if (response.ok) {
+                    contactLink.href = whatsappLink;
+                    contactLink.innerText = "Chat via WhatsApp";
+                } else {
+                    throw new Error("WhatsApp tidak tersedia");
+                }
+            })
+            .catch(() => {
+                contactLink.href = telLink;
+                contactLink.innerText = "Hubungi via Telepon";
+            });
+    });
+</script>
+
 
         <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
           <div class="form-row">
