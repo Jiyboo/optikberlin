@@ -1,6 +1,10 @@
-# Website Kacamata
+# Optik Berlin
 
-Selamat datang di repositori **Website Kacamata**! Website ini dibuat untuk menampilkan berbagai koleksi kacamata dengan desain modern dan stylish.
+Selamat datang di repositori **Optik Berlin**! Website ini dibuat untuk menampilkan berbagai koleksi kacamata dengan desain modern dan stylish.
+
+## 🌐 Tautan Website
+Akses website melalui link berikut:
+👉 [Optik Berlin](https://jiyboo.github.io/optikberlin)
 
 ## 🎯 Fitur Utama
 - Menampilkan katalog produk kacamata.
@@ -12,12 +16,11 @@ Selamat datang di repositori **Website Kacamata**! Website ini dibuat untuk mena
 - **HTML5** – Struktur halaman website.
 - **CSS3** – Desain tampilan dan animasi.
 - **JavaScript** – Interaktivitas pada website.
-- **Bootstrap** – Framework CSS untuk tampilan responsif.
 - **GitHub Pages** – Hosting website secara gratis.
 
 ## 📂 Struktur Proyek
 ```
-📂 website-kacamata
+📂 optikberlin
 │── 📁 assets        # Folder berisi gambar, ikon, dan font
 │── 📁 css           # File CSS untuk styling
 │── 📁 js            # File JavaScript untuk interaktivitas
@@ -27,15 +30,15 @@ Selamat datang di repositori **Website Kacamata**! Website ini dibuat untuk mena
 │── 📄 README.md     # Dokumentasi proyek
 ```
 
-## 🔧 Cara Menjalankan Website
+## 🔧 Cara Menjalankan Website Secara Lokal
 1. **Clone repositori ini**
    ```bash
-   git clone https://github.com/username/website-kacamata.git
+   git clone https://github.com/jiyboo/optikberlin.git
    ```
 2. **Buka file `index.html` di browser**
-3. **Atau akses melalui GitHub Pages** (jika sudah dideploy)
+3. **Atau akses langsung melalui GitHub Pages**
    ```
-   https://username.github.io/website-kacamata/
+   https://jiyboo.github.io/optikberlin
    ```
 
 ## 📢 Kontribusi
@@ -45,4 +48,4 @@ Kami terbuka untuk kontribusi! Jika ingin menambahkan fitur atau melakukan perba
 Website ini dirilis di bawah lisensi **MIT**. Silakan gunakan dan modifikasi sesuai kebutuhan.
 
 ---
-Terima kasih telah mengunjungi website kami! 😎
+Terima kasih telah mengunjungi Optik Berlin! 😎
